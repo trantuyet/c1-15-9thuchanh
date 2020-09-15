@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2 nâng cao</title>
+    <script src="ebjs.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    function nhapdl() {
+        let a1 = document.getElementById("width").value;
+        let b1 = document.getElementById("height").value;
+        let d = a1 * b1;
+            alert("Diện tích hình chữ nhật này là" + d);
+    }
+</script>
+<form>
+    nhập chiều dài:<input type="text" id="width" name="number" /> <br>
+    nhập chiều rộng:<input type="text" id="height" name="number" /> <br>
+    <br> <input type="button" value="Tính" onclick="nhapdl()" />
+</form>
+</body>
+</html>
+
